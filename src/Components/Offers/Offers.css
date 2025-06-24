@@ -115,11 +115,13 @@
     
 }
 
+
+
 @media(max-width:500px){
     .offers{
         height: 25vh;
         margin-bottom: 50px;
-        width: 70%;
+        width: 60%;
     }
     .offers-left h1{
         font-size: 16px;
@@ -128,7 +130,9 @@
         font-size: 7px;
     }
     .offers-right img{
-        width: 120px;
+        width: 100px;
+        margin-top: -38px;
+        margin-left: 20px;
     }
     .offers-left button{
         width: 120px;

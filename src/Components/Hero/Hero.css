@@ -145,3 +145,26 @@
     font-size: 14px;
   }
 }
+
+@media(max-width:400px){
+  .hero{
+    flex-direction: column;
+  }
+  .hero-right{
+    display: none;
+  }
+  .hero-left h2{
+    font-size: 18px;
+  }
+  .hero-left{
+    font-size: 50px;
+  }
+  .hero-hand-icon img{
+    width: 50px;
+  }
+  .hero-latest-btn{
+    width: 180px;
+    height: 45px;
+    font-size: 12px;
+  }
+}
